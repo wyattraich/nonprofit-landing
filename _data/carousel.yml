@@ -1,7 +1,7 @@
 images:
-  - image: {{ site.baseurl }}/images/forest_b.jpg
-  - image: {{ site.baseurl }}/images/forest_a.jpg
-  - image: {{ site.baseurl }}/images/beach_b.jpg
-  - image: {{ site.baseurl }}/images/beach_a.jpg
-  - image: {{ site.baseurl }}/images/glacier_b.jpg
-  - image: {{ site.baseurl }}/images/glacier_a.jpg
+  - image: nonprofit-landing/images/forest_b.jpg
+  - image: nonprofit-landing/images/forest_a.jpg
+  - image: nonprofit-landing/images/beach_b.jpg
+  - image: nonprofit-landing/images/beach_a.jpg
+  - image: nonprofit-landing/images/glacier_b.jpg
+  - image: nonprofit-landing/images/glacier_a.jpg

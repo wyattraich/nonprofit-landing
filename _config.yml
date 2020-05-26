@@ -3,7 +3,7 @@
 
 title: Home
 url: https://clean-oryx.cloudvent.net
-baseurl:
+baseurl: #/nonprofit-landing
 google_analytics_key:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
