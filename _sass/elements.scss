@@ -21,6 +21,7 @@ h1 {
 	padding: 0;
 	margin: 0 0 20px 0;
 	font-size: 3em;
+	text-align: center;
 }
 
 h2 {
@@ -41,7 +42,7 @@ p {
 }
 
 nav {
-	padding: 30px 0;
+	padding: 12px 0px;
 	svg {
 		fill: $brand-color;
 		height: 35px;
@@ -110,3 +111,5 @@ form {
 		background: darken($brand-color, 5%);
 	}
 }
+
+* {box-sizing:border-box}
