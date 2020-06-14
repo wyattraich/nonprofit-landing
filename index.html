@@ -74,7 +74,7 @@ title: Fend
 	</blockquote>
 </div> -->
 
-<div class="darker">
+<!-- <div class="darker">
 	<div class="container">
 		<h2 class="editable">Join us</h2>
 		<p class="editable" style="text-align: center;">Sign up to hear the latest news and progress in our fight for the environment.</p>
@@ -83,7 +83,7 @@ title: Fend
 			<input type="submit" value="Sign up"/>
 		</form>
 	</div>
-</div>
+</div> -->
 
 <!--
 <div class="container" id="donate">
@@ -102,18 +102,19 @@ title: Fend
 	</div>
 </div>
 
-<!-- <div class="darker">
+<div class="darker">
 	<div class="container">
 		<h2 class="editable">Updates</h2>
 		<p class="editor-link"><a href="cloudcannon:collections/_posts" class="btn"><strong>&#9998;</strong> Add Update</a></p>
 		<div class="posts">
 			{% for post in site.posts %}
 				<div class="post">
+          {% if post.featured_image != 0%}
 					<div class="image" style="background-image: url({{ post.featured_image}})"></div>
+          {% endif %}
 					<div class="post-content">
 						<p class="date">{{ post.date | date: '%B %d, %Y' }}</p>
 						<h3>{{ post.title }}</h3>
-
 						{{ post.content }}
 						<p class="editor-link"><a href="cloudcannon:collections/{{ post.path }}" class="btn"><strong>&#9998;</strong> Edit Update</a></p>
 					</div>
@@ -121,4 +122,4 @@ title: Fend
 			{% endfor %}
 		</div>
 	</div>
-</div> -->
+</div>
